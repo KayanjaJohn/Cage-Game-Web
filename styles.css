@@ -1,0 +1,58 @@
+
+body{
+   /* background-size: contain; */
+    background: linear-gradient(90deg,rgba(255, 27, 27, 0.5),rgb(15, 15, 15,0.86),rgb(228, 194, 194)),url(/wallpaperflare.com_wallpaper\ \(6\).jpg);
+}
+
+
+.container{
+    margin: auto;
+    margin-top: 40px;
+}
+
+
+li{
+    list-style: none;
+}
+
+.footer {
+    font-size: 14px;
+    margin-top: 30px;
+    color: rgba(255,255,255,0.7);
+}
+
+.blur{
+    color: rgb(0, 0, 0,0.01);
+}
+.card{
+    background-color: rgb(151, 204, 186,0.78);
+    transition: 0.38s ease-in-out;
+    transition: transform 0.4s;
+    /* background-repeat:repeat ; */
+}
+.card:hover{
+    transform: translateY(-12px);
+}
+a{
+    text-decoration: none;
+}
+a p{
+    font-size:medium;
+    font-weight: 700;
+    background-color: rgb(193, 252, 184);
+    border: ridge 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+#footer-bg{
+    background: linear-gradient(rgba(22, 41, 73, 0.7),rgba(86, 92, 112, 0.7)),url(/wallpaperflare.com_wallpaper\ \(6\).jpg);
+}
+.col h4{
+    color: white;
+    font-size: medium;
+    font-weight: 300;
+}
+.navbar-brand{
+    font-size: x-large;
+    font-weight: 900;
+}
